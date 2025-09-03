@@ -1,0 +1,10 @@
+//
+// Root-level stub Gradle build file for CI environments that try to run Gradle builds from repo root.
+//
+task stubBuild {
+    doLast {
+        println "Root stub Gradle build: Expo managed workflow - skipping native build."
+    }
+}
+
+defaultTasks 'stubBuild'

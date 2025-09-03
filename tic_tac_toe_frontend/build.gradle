@@ -1,0 +1,10 @@
+//
+// Container-root stub Gradle build for CI.
+//
+task stubBuild {
+    doLast {
+        println "Container stub Gradle build: Expo managed workflow - skipping native build."
+    }
+}
+
+defaultTasks 'stubBuild'

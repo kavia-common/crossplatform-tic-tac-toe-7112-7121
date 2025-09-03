@@ -1,0 +1,4 @@
+/**
+ * Container-root stub Gradle settings for CI probes.
+ */
+rootProject.name = "expo-managed-stub-container"

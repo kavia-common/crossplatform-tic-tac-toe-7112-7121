@@ -1,0 +1,16 @@
+{
+  "notes": "Expo managed workflow - do not run native Gradle builds in CI.",
+  "build": {
+    "type": "managed",
+    "android": {
+      "useGradle": false
+    },
+    "ios": {
+      "useXcodebuild": false
+    },
+    "commands": {
+      "lint": "npm run lint",
+      "build": "npm run build"
+    }
+  }
+}

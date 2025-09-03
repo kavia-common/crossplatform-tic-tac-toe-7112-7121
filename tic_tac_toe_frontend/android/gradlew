@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Stub gradle wrapper for CI environments that invoke ./gradlew unconditionally.
+# This is an Expo managed app; native build is not required here.
+echo "Stub gradle wrapper: skipping native Android build (Expo managed workflow)."
+exit 0

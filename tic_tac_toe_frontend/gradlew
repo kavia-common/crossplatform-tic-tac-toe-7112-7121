@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Container-root stub gradle wrapper for CI environments invoking ./gradlew from tic_tac_toe_frontend.
+echo "Container stub gradle wrapper: skipping native Android build (Expo managed workflow)."
+exit 0

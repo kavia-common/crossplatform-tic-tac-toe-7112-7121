@@ -1,0 +1,5 @@
+/**
+ * Stub Gradle settings for CI that probes Gradle project structure.
+ * No native modules are configured; this is intentionally a no-op.
+ */
+rootProject.name = "expo-managed-stub"

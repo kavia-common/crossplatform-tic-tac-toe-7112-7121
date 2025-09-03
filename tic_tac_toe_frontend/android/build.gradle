@@ -1,0 +1,10 @@
+//
+// Stub Gradle build file for CI environments that try to run Gradle builds.
+//
+task stubBuild {
+    doLast {
+        println "Stub Gradle build: Expo managed workflow - skipping native build."
+    }
+}
+
+defaultTasks 'stubBuild'

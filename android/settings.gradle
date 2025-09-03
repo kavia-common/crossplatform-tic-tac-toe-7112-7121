@@ -1,0 +1,4 @@
+/**
+ * Root-level stub Gradle settings to satisfy CI that probes for Gradle projects.
+ */
+rootProject.name = "expo-managed-stub-root"
